@@ -1,0 +1,19 @@
+AppMode = "debug"
+AppName = "Go Inspect"
+AppPort = ":8090"
+
+[Database]
+host = "localhost"
+port = 3306
+username = "root"
+password = "1qaz2wsx"
+database = "goinspect"
+
+[Redis]
+Host = "localhost"
+Port = 6039
+Auth = "admin"
+PRFRIX = "gi-"
+
+[weixin]
+VerifyToken = "datinggo777"
